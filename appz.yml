@@ -26,4 +26,6 @@ volumes:
 
 properties:
   IDE_PASSWORD_HASH: "nagesh:{SHA}SCAXJ/r4qy2Fg81rCi/sDm0cl3A="
+  MYSQL_PASSWORD_KEY: 
+    vault: MYSQL_PASSWORD_KEY
   revision : 16
